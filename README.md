@@ -20,6 +20,7 @@ The script also shows live changes and this can be tested by adding new files or
 
 ### PowerShell Script
 
+```
 ﻿Function Calculate-File-Hash($filepath) {
     $filehash = Get-FileHash -Path $filepath -Algorithm SHA512
     return $filehash
@@ -108,3 +109,4 @@ elseif ($response -eq "B".ToUpper()) {
         }
     }
 }
+```
